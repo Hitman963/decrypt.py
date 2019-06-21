@@ -1,7 +1,10 @@
 #!/usr/bin/python
 from hashlib import *
-from termcolor import *
-def exiting():
+try:
+    from termcolor import *
+except ModuleNotFoundError as jl:
+  print("please setup term color from this command in your terminal or cmd or termux : pip3 install termcolor")
+    def exiting():
               _hash = input("[+hash+]==================>>>")
               file1 = input("[+path+]==================>>>")
               with open(file1,mode="r") as f:
