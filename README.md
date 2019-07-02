@@ -1,2 +1,1 @@
-# decrypt.py
-decrypt md5 hashes
+this tool made by egyptian hacker mr.hack >>>>>>>>> and developed by the darkoverlord
